@@ -6,7 +6,7 @@ const LandingRoutes = () => {
   return (
     <Routes>
       <Route path="" element={<LandingSharedLayout />}>
-        <Route path="home" index element={<Landing />} />
+        <Route path="" index element={<Landing />} />
       </Route>
     </Routes>
   );
