@@ -1,4 +1,5 @@
 import Header from "@/components/navigation/Header";
+import Footer from "@/components/navigation/Footer";
 import { Outlet } from "react-router";
 
 const LandingSharedLayout = () => {
@@ -9,6 +10,8 @@ const LandingSharedLayout = () => {
       <div>
         <Outlet />
       </div>
+      
+      <Footer />
     </div>
   );
 };

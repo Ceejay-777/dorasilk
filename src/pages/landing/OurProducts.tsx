@@ -5,13 +5,13 @@ import Pill from "@/components/ui/Pill";
 
 const OurProducts = () => {
   return (
-    <div className="flex items-center flex-col gap-10 px-25">
-      <div className="w-full flex justify-between">
+    <div className="flex items-center flex-col gap-10 md:px-25 px-12 py-12">
+      <div className="w-full flex justify-between flex-col lg:flex-row gap-6">
         <h2 className="border-b-2 pb-4 w-fit  text-2xl font-playfair-display uppercase">
           Our Products
         </h2>
 
-        <div className="flex gap-2.5">
+        <div className="flex gap-2.5 flex-wrap">
           <Pill>All</Pill>
           <Pill selected>Sleek fusion</Pill>
           <Pill>Curl Fusion</Pill>

@@ -8,7 +8,7 @@ type PillProps = ChildrenProps & {
 const Pill: React.FC<PillProps> = ({ children, selected }) => {
   return (
     <div
-      className={`rounded-full py-4 px-4.5 border w-fit capitalize ${
+      className={`rounded-full py-2 px-3 md:py-4 md:px-4.5 border w-fit capitalize text-xs md:text-base ${
         selected
           ? "border-deepbrown bg-brown-1 text-white-1"
           : "border-gold-2 text-black bg-white-1"

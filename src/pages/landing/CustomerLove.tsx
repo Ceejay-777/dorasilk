@@ -4,12 +4,12 @@ import john from "@/assets/john-avatar.png";
 
 const CustomerLove = () => {
   return (
-    <div className="py-12 bg-white-2 px-25">
+    <div className="py-12 bg-white-2 lg:px-25 px-12">
       <h2 className="font-medium text-[60px] font-playfair-display text-deepbrown">
         Customer Love
       </h2>
 
-      <div className="grid grid-cols-3 gap-10 mt-10">
+      <div className="grid grid-cols-1 gap-10 mt-10 lg:grid-cols-3">
         <CustomerCard
           styles="bg-white-1 text-deepbrown"
           info="Real-time chat monitoring has transformed our customer support. We respond to queries instantly, and our customers love it"
@@ -19,7 +19,7 @@ const CustomerLove = () => {
         />
 
         <CustomerCard
-          styles="bg-gold-1 text-white-1 col-span-2"
+          styles="bg-gold-1 text-white-1 lg:col-span-2"
           info="The live chat feature has increased our sales conversions by 30%. We can engage with customers in real-time and address their concerns"
           name="David"
           role="Freelancer"

@@ -7,12 +7,12 @@ import {
 
 const FAQs = () => {
   return (
-    <div className="py-25 flex flex-col items-center justify-center gap-12">
+    <div className="py-25 flex flex-col items-center justify-center gap-12 px-12">
       <div className="rounded-full text-deepbrown border-2 border-white-1 bg-gradient-to-r from-gold-2 to-white-2 py-2 px-5 text-sm font-medium">
         FAQs
       </div>
 
-      <div className="max-w-[620px] ">
+      <div className="max-w-[620px]">
         <h2
           className="bg-gradient-to-r from-gold-2  to-white-1
                bg-clip-text text-transparent text-[64px] leading-[76px] font-medium font-playfair-display text-center mb-6"
@@ -28,49 +28,85 @@ const FAQs = () => {
       <Accordion
         type="single"
         collapsible
-        className="w-full"
         defaultValue="item-1"
+        className="w-4/5 flex flex-col gap-4"
       >
-        <AccordionItem value="item-1">
-          <AccordionTrigger>Product Information</AccordionTrigger>
+        <AccordionItem
+          value="item-1"
+          className="border bg-white-1 rounded-2xl text-black p-6"
+        >
+          <AccordionTrigger className="text-2xl text-deepbrown">
+            How to access rituals
+          </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-4 text-balance">
             <p>
-              Our flagship product combines cutting-edge technology with sleek
-              design. Built with premium materials, it offers unparalleled
-              performance and reliability.
-            </p>
-            <p>
-              Key features include advanced processing capabilities, and an
-              intuitive user interface designed for both beginners and experts.
+              Yes! You can start for free with 3 image exports per month and
+              access to basic presets. For unlimited use and higher quality, we
+              offer affordable paid plans.
             </p>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-2">
-          <AccordionTrigger>Shipping Details</AccordionTrigger>
+
+        <AccordionItem
+          value="item-2"
+          className="border bg-white-1 rounded-2xl text-black p-6"
+        >
+          <AccordionTrigger className="text-2xl text-deepbrown">
+            Where can I use the products?
+          </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-4 text-balance">
             <p>
-              We offer worldwide shipping through trusted courier partners.
-              Standard delivery takes 3-5 business days, while express shipping
-              ensures delivery within 1-2 business days.
-            </p>
-            <p>
-              All orders are carefully packaged and fully insured. Track your
-              shipment in real-time through our dedicated tracking portal.
+              Yes! You can start for free with 3 image exports per month and
+              access to basic presets. For unlimited use and higher quality, we
+              offer affordable paid plans.
             </p>
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-3">
-          <AccordionTrigger>Return Policy</AccordionTrigger>
+
+        <AccordionItem
+          value="item-3"
+          className="border bg-white-1 rounded-2xl text-black p-6"
+        >
+          <AccordionTrigger className="text-2xl text-deepbrown">
+            Is it for all hair types?
+          </AccordionTrigger>
           <AccordionContent className="flex flex-col gap-4 text-balance">
             <p>
-              We stand behind our products with a comprehensive 30-day return
-              policy. If you&apos;re not completely satisfied, simply return the
-              item in its original condition.
+              Yes! You can start for free with 3 image exports per month and
+              access to basic presets. For unlimited use and higher quality, we
+              offer affordable paid plans.
             </p>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem
+          value="item-4"
+          className="border bg-white-1 rounded-2xl text-black p-6"
+        >
+          <AccordionTrigger className="text-2xl text-deepbrown">
+            Shipping / returns
+          </AccordionTrigger>
+          <AccordionContent className="flex flex-col gap-4 text-balance">
             <p>
-              Our hassle-free return process includes free return shipping and
-              full refunds processed within 48 hours of receiving the returned
-              item.
+              Yes! You can start for free with 3 image exports per month and
+              access to basic presets. For unlimited use and higher quality, we
+              offer affordable paid plans.
+            </p>
+          </AccordionContent>
+        </AccordionItem>
+
+        <AccordionItem
+          value="item-5"
+          className="border bg-white-1 rounded-2xl text-black p-6"
+        >
+          <AccordionTrigger className="text-2xl text-deepbrown">
+            How to verify your product
+          </AccordionTrigger>
+          <AccordionContent className="flex flex-col gap-4 text-balance">
+            <p>
+              Yes! You can start for free with 3 image exports per month and
+              access to basic presets. For unlimited use and higher quality, we
+              offer affordable paid plans.
             </p>
           </AccordionContent>
         </AccordionItem>

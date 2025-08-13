@@ -1,3 +1,4 @@
+import ContactUs from "./ContactUs";
 import CustomerLove from "./CustomerLove";
 import FAQs from "./FAQs";
 import Hero from "./Hero";
@@ -16,6 +17,7 @@ const Landing = () => {
       <RevampJournal />
       <CustomerLove />
       <FAQs />
+      <ContactUs />
     </div>
   );
 };

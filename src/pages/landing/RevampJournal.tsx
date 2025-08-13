@@ -10,12 +10,12 @@ import journal5 from "@/assets/journal5.png"
 const RevampJournal = () => {
   return (
     <div className="flex items-center flex-col gap-10 py-12 px-25">
-      <div className=" w-full flex justify-between">
+      <div className="w-full flex justify-between flex-col lg:flex-row gap-6">
         <h2 className="border-b-2 pb-4 w-fit  text-2xl font-playfair-display uppercase">
           The Revamp Journal
         </h2>
 
-        <div className="flex gap-2.5">
+        <div className="flex gap-2.5 flex-wrap">
           <Pill>All</Pill>
           <Pill selected>The Revamp journal</Pill>
           <Pill>Industry Trends</Pill>

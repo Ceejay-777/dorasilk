@@ -2,8 +2,8 @@ import hairmaking from "@/assets/hairmaking.jpg";
 
 const WhoWeAre = () => {
   return (
-    <div className="py-12 flex justify-between items-center px-25">
-      <div className="w-[45%] flex flex-col gap-12">
+    <div className="py-12 flex justify-between items-center lg:px-25 px-12 flex-col-reverse lg:flex-row gap-12">
+      <div className="lg:w-[45%] flex flex-col  gap-12">
         <h2
           className="bg-gradient-to-r from-gold-2 to-white-1
                bg-clip-text text-transparent text-[100px] leading-[116px] font-medium font-playfair-display"
@@ -11,7 +11,7 @@ const WhoWeAre = () => {
           Who we are
         </h2>
 
-        <div className="bg-white-1 text-black text-[28px] leading-[45px] font-light p-6 rounded-2xl">
+        <div className="bg-white-1 text-black  md:text-[28px] leading-[45px] font-light p-6 rounded-2xl w-full">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
             odit. Nesciunt adipisci architecto, facere quo inventore odio
@@ -22,7 +22,7 @@ const WhoWeAre = () => {
         </div>
       </div>
 
-      <div className="w-[45%] rounded-4xl overflow-hidden relative group h-[560px] border">
+      <div className="lg:w-[45%] rounded-4xl overflow-hidden relative group h-[560px] border w-full">
         <img
           src={hairmaking}
           alt=""
