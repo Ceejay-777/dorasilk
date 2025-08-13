@@ -64,10 +64,10 @@ const Footer = ({
     },
   ],
   copyright = "© 2025 Dorasilk. All rights reserved.",
-  bottomLinks = [
-    { text: "Terms and Conditions", url: "#" },
-    { text: "Privacy Policy", url: "#" },
-  ],
+//   bottomLinks = [
+//     { text: "Terms and Conditions", url: "#" },
+//     { text: "Privacy Policy", url: "#" },
+//   ],
 }: Footer2Props) => {
   return (
     <section className="py-12 bg-gold-1 px-25">

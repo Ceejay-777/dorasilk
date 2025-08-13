@@ -1,7 +1,8 @@
 import { ArrowUpRight } from "lucide-react";
 import olivia from "@/assets/olivia.png";
+import type { ChildrenProps } from "@/types";
 
-const JournalCard = ({ children }) => {
+const JournalCard:React.FC<ChildrenProps> = ({ children }) => {
   return (
     <div className="rounded-4xl px-4 py-4.5 flex flex-col items-start gap-4 w-[30%] bg-white min-w-[380px]">
       <div className="rounded-3xl overflow-hidden h-[240px]">{children}</div>

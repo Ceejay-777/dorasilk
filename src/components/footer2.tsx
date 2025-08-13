@@ -1,5 +1,3 @@
-import { Logo, LogoImage, LogoText } from "@/components/shadcnblocks/logo";
-
 interface MenuItem {
   title: string;
   links: {
@@ -25,12 +23,12 @@ interface Footer2Props {
 }
 
 const Footer2 = ({
-  logo = {
-    src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
-    alt: "blocks for shadcn/ui",
-    title: "Shadcnblocks.com",
-    url: "https://www.shadcnblocks.com",
-  },
+  // logo = {
+  //   src: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/block-1.svg",
+  //   alt: "blocks for shadcn/ui",
+  //   title: "Shadcnblocks.com",
+  //   url: "https://www.shadcnblocks.com",
+  // },
   tagline = "Components made easy.",
   menuItems = [
     {
@@ -84,7 +82,7 @@ const Footer2 = ({
         <footer>
           <div className="grid grid-cols-2 gap-8 lg:grid-cols-6">
             <div className="col-span-2 mb-8 lg:mb-0">
-              <div className="flex items-center gap-2 lg:justify-start">
+              {/* <div className="flex items-center gap-2 lg:justify-start">
                 <Logo url="https://shadcnblocks.com">
                   <LogoImage
                     src={logo.src}
@@ -94,7 +92,7 @@ const Footer2 = ({
                   />
                   <LogoText className="text-xl">{logo.title}</LogoText>
                 </Logo>
-              </div>
+              </div> */}
               <p className="mt-4 font-bold">{tagline}</p>
             </div>
             {menuItems.map((section, sectionIdx) => (

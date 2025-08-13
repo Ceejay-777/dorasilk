@@ -1,8 +1,8 @@
-import React from "react";
 import {Heart, Plus} from "lucide-react"
 import Rating from "./Rating";
+import type { ChildrenProps } from "@/types";
 
-const ProductCard = ({children}) => {
+const ProductCard:React.FC<ChildrenProps> = ({children}) => {
   return (
     <div className="p-4 rounded-2xl bg-white min-w-[250px] max-w-[295px] w-1/4 flex flex-col items-center gap-2">
       <div className="flex items-center justify-between w-full">
